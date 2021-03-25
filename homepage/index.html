@@ -39,7 +39,6 @@
 
 	article {
 	  float: left;
-	  https://www.w3schools.com/padding: 20px;
 	  width: 70%;
 	  background-color: #f1f1f1;
 	  height: 400px; /* only for demonstration, should be removed */
@@ -65,10 +64,9 @@
 </head>
 <body>
 	<header>
-	  <h2>Ahsan Waseem</h2>
+	  <h1>Ahsan Waseem</h1>
 	</header>
-
-	<section>
+	
 	  <nav>
 	    <ul>
 	      <li><a href="index.html">Homepage</a></li>
@@ -81,13 +79,30 @@
 	      <li><a href="#">Assignment 8</a></li>
 	      <li><a href="#">Assignment 9</a></li>
 	    </ul>
+	  <p>
+      <a
+        href="http://validator.w3.org/check?uri=referer"
+        onclick="this.href='http://validator.w3.org/check?uri=' + document.URL"
+      >
+        <!-- The HTML validator icon is not displayed, probably because the site where it lies is not secure. 
+      I tried linking another image from the server, and it works fine. Assuming the assignment wants us 
+      to learn something different, I left it as the assignment asked. Only added the onclick function online
+      without which the validator link was not working. -->
+        <img
+          src="html5.png"
+          alt="HTML Validator"
+          height="30"
+          width="90"
+        />
+      </a>
+    </p>
 	  </nav>
 	  
 	  <article>
-	    <h1>Ahsan Waseem (611971)</h1>
-	    <img src="picture.jpg" width="250px" height="auto">
+	    <h2>Ahsan Waseem (611971)</h2>
+	    <img src="picture.jpg" width="250" height="250" alt="picture">
 	  </article>
-	</section>
+	
 
 	<footer>
 	  <p>Footer</p>
