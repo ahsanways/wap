@@ -1,0 +1,25 @@
+@charset "ISO-8859-1";
+
+header {
+ color:Black;
+	background-color:#F0F0F0;
+	font-family:"Lucida Sans Unicode","Helvetica, Arial, Sans-serif";
+	text-align:left;
+	font-size:18px;
+	text-decoration: underline;
+	letter-spacing:0.25em;
+  }
+  
+  a:link {
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+
+  h3 {
+      color:darkred
+  }
+  li {
+      color: navy;
+  }
