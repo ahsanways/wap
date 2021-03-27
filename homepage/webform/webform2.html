@@ -1,0 +1,52 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="webform2.css">
+</head>
+<body>
+    <ul>
+      <li id="logoText"><a href="#mum">MUM Golden Dome Market ::: SRM System</a></li>
+      <li class="navtext"><a href="#product">Products</a></li>
+      <li class="navtext"><a href="#supplier">Supplier</a></li>
+      <li style="float:right"><button type="button" id="signoutbtn">Sign Out</a></button>
+      <li style="float:right"><a href="#about">Hello!</a></li>
+    </ul>
+    <br>
+    <br>
+    <h1>New Product Form</h1>
+        <div id="left">
+            <label>Product Number</label><br>
+            <input type="text"><br>
+            <br>
+            <label>Name</label><br>
+            <input type="text"><br>
+            <br>
+            <label>Unit Price</label><br>
+            <input type="text">
+        </div>
+        <div id="right">
+            <label>Quantity in stock</label><br>
+            <input type="text" placeholder="0"><br>
+            <br>
+            <label>Supplier</label><br>
+            <select>
+                <option value="select a supplier">Select a supplier</option>
+            </select>
+            <br>
+            <br>
+            <label>Date supplied</label><br>
+            <input type="text" placeholder="yyyy-mm-dd"><br>
+            <span id="errormsg">Enter a valid Date.</span>
+            <br>
+        </div>
+
+    <div id="rightbtn">
+        <input id="reset" type="reset" value="Reset">
+        <input id="cancel" type="button" value="Cancel">
+        <input id="add" type="submit" value="Add Product">
+
+    </div>
+</body>
+</html>

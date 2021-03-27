@@ -1,0 +1,180 @@
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: hsl(202deg 79% 57%);
+}
+
+li {
+  float: left;
+  border-right:1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: hsl(202deg 94% 33%);
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+body{
+  margin:0;
+  font-family: sans-serif;
+}
+
+#logoText{
+  padding-right: 30px;
+}
+
+.navtext{
+  padding: 0 20px 0 20px;
+}
+
+#signoutbtn{
+  padding: 10px;
+  margin: 5px 5px 0 5px;
+}
+
+.container {
+  padding: 0 10% 0 10%;
+}
+
+
+
+
+header {
+    background-color: rgb(106, 158, 190);
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin:0px;
+}
+
+#headh1 {
+    position: absolute;
+    color: white;
+    font-size: 1.2vw;
+    float: right;
+}
+
+#btn {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 1vw;
+    float: right;
+    top: 0.2vw;
+    width: 5vw;
+    height: 3vw;
+}
+
+.linkp {
+    position: absolute;
+    left: 50vw;
+    border-left: 2px solid white;
+    line-height: 50px;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.links {
+    position: absolute;
+    left: 35vw;
+    border-left: 2px solid white;
+    line-height: 50px;
+    display: block;
+    border-spacing: 50px;
+}
+
+.prg {
+    position: relative;
+    margin-right: 5px;
+    left: 90vw;
+}
+
+#left {
+    position: absolute;
+    padding: 2.5vw;
+    float: right;
+}
+
+#left input {
+    width: 40vw;
+    height: 2vw;
+}
+
+#right {
+    display: inline;
+    position: relative;
+    padding: 2.5vw;
+    float: right;
+    top: 0px;
+}
+
+#right input {
+    width: 40vw;
+    height: 2vw;
+}
+
+select {
+    width: 40.7vw;
+    height: 2.4vw;
+}
+
+#producth1 {
+    padding: 1vw;
+}
+
+#errormsg {
+    font-size: 12px;
+}
+
+#rightbtn {
+    position: absolute;
+    right: 0vw;
+    bottom: 15vw;
+    float: right;
+}
+
+#rightbtn input {
+    width: 7vw;
+    height: 2vw;
+    border-radius: 10%;
+    margin-right: 4vw;
+}
+
+#cancel {
+    border-color: orange;
+    color: orange;
+}
+
+#reset {
+    border-color: blue;
+    color: blue;
+}
+
+#add {
+    border-color: cornflowerblue;
+    color: cornflowerblue;
+}
